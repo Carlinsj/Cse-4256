@@ -1,11 +1,6 @@
 # Question 1
 def star_m(n):
-    """
-    Generate an adjacency matrix representation of a star graph with n nodes.
 
-    :param n: Integer (n > 2), number of nodes in the star graph
-    :return: List of lists representing the adjacency matrix
-    """
     if n <= 2:
         raise ValueError("n must be greater than 2")
 
@@ -19,12 +14,7 @@ def star_m(n):
 
 # Question 2
 def star_d(n):
-    """
-    Generate a dictionary representation of a star graph with n nodes.
-
-    :param n: Integer (n > 2), number of nodes in the star graph
-    :return: Dictionary representing the adjacency list of the star graph
-    """
+   
     if n <= 2:
         raise ValueError("n must be greater than 2")
 
