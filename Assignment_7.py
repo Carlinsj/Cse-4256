@@ -6,6 +6,6 @@ def directed_to_undirected(di):
         for j in range(n):
             if di[i][j] == 1 or di[j][i] == 1:
                 undirected[i][j] = 1
-                undirected[j][i] = 1  # Ensure symmetry
+                undirected[j][i] = 1
     
     return undirected
